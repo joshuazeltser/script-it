@@ -1,0 +1,9 @@
+expo start
+expo start
+expo start
+npm install
+expo start
+history | tail -n 2 | cut -c 8- > test.sh
+vim test.sh 
+exit
+history | tail -n ${COMMANDS} | cut -c 8- > ${FILE_NAME}
